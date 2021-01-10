@@ -1,6 +1,7 @@
 {
-  "name": "eslint-config-nshcore",
-  "version": "0.0.1",
+  "name": "@nshcore-npm/eslint-config-nshcore",
+  "version": "0.0.9",
+  "private": false,
   "description": "My strict eslint presets",
   "main": "index.js",
   "author": "nshcore@protonmail.com",
@@ -8,13 +9,24 @@
   "peerDependencies": {
     "eslint": ">= 7"
   },
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshcore/eslint-config-nshcore.git"
+  },
+  "engines": {
+    "node": ">=10.23.1",
+    "npm": "^6.13.4"
+  },
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.12.0",
     "@typescript-eslint/parser": "^4.12.0",
     "eslint": "^7.17.0",
     "eslint-import-resolver-typescript": "^2.3.0",
     "eslint-plugin-async-await": "0.0.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-import-newlines": "^1.1.0"
+    "eslint-plugin-import-newlines": "^1.1.0",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-promise": "^4.2.1",
+    "typescript": "^4.1.3"
   }
 }
